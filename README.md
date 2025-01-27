@@ -21,13 +21,13 @@ After running several models, we concluded that there were 'giveaway' words that
 
 ### Model Overview
 
-We tested a random assignment benchmark, a random forest classifier, and an XGBoost classifier. The XGBoost classifier performed the best with .90 ROC indicating strong performance.
-
 We trained our model with the two dominant Spanish parties: left - Spanish Socialist Workers' Party (PSOE), and right - People's Party (PP) speeches. We then tested our model on out of sample PP and PSOE data, and again with more extreme left and right parties. We saw strong results for PP-PSOE and VOX-Podemos (extremist right-left); however, the other parties we tested had data size limitations and often focused on more regional issues that were not captured by our training data set. 
 
-Here we can see our XGBoost classifier performed the
-<img width="605" alt="Screenshot 2025-01-27 at 10 59 26 AM" src="https://github.com/user-attachments/assets/83b5e31b-0867-4e74-b418-9f2efa4a2259" />
-<img width="605" alt="Screenshot 2025-01-27 at 11 00 25 AM" src="https://github.com/user-attachments/assets/84c6314f-afcd-40ac-a3a0-04e082dc999f" />
+We tested a random assignment benchmark, a random forest classifier, and an XGBoost classifier. The XGBoost classifier performed the best with .90 ROC indicating strong performance. Here we can see our XGBoost classifier performance.
+
+<img width="500" alt="Screenshot 2025-01-27 at 10 59 26 AM" src="https://github.com/user-attachments/assets/83b5e31b-0867-4e74-b418-9f2efa4a2259" />
+
+<img width="500" alt="Screenshot 2025-01-27 at 11 00 25 AM" src="https://github.com/user-attachments/assets/84c6314f-afcd-40ac-a3a0-04e082dc999f" />
 
 
 Below we can see the ability of the classifier to determine PP vs PSOE (main left and right parties respectively in Spain), and also the trained model's ability to determine the difference between VOX and Podemos (two additional more extreme left vs right respectively parties). 
