@@ -25,7 +25,7 @@ We trained our model with the two dominant Spanish parties: left - Spanish Socia
 
 We tested a random assignment benchmark, a random forest classifier, and an XGBoost classifier. The XGBoost classifier performed the best with .90 ROC indicating strong performance. Here we can see our XGBoost classifier performance.
 
-<img width="500" alt="Screenshot 2025-01-27 at 10 59 26 AM" src="https://github.com/user-attachments/assets/83b5e31b-0867-4e74-b418-9f2efa4a2259" />
+<img width="500" alt="Screenshot 2025-01-27 at 11 07 54 AM" src="https://github.com/user-attachments/assets/b8ebb0a6-0f78-435f-961c-3486b963f59f" />
 
 <img width="500" alt="Screenshot 2025-01-27 at 11 00 25 AM" src="https://github.com/user-attachments/assets/84c6314f-afcd-40ac-a3a0-04e082dc999f" />
 
